@@ -64,7 +64,7 @@ struct ContentView: View {
                         else if (Double(mark) ?? 0) >= 60{
                             grade = "Fair"
                         }
-                        else if (Double(mark) ?? 0) >= 60 {
+                        else {
                             grade = "Fail"
                         }
                     }
