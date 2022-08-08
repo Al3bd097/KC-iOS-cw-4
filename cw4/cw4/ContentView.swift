@@ -49,22 +49,22 @@ struct ContentView: View {
                             grade = "Enter from 1-100"
                         }
                         
-                        else if (Double)(mark) ?? 0 == 100{
+                        else if (Double(mark) ?? 0) == 100{
                             grade = "Full Mark"
                         }
-                        else if (Double)(mark) ?? 0 >= 90{
+                        else if (Double(mark) ?? 0) >= 90{
                             grade = "Amazing"
                         }
-                        else if (Double)(mark) ?? 0 >= 80{
+                        else if (Double(mark) ?? 0) >= 80{
                             grade = "Well done"
                         }
-                        else if (Double)(mark) ?? 0 >= 70{
+                        else if (Double(mark) ?? 0) >= 70{
                             grade = "Good"
                         }
-                        else if (Double)(mark) ?? 0 >= 60{
+                        else if (Double(mark) ?? 0) >= 60{
                             grade = "Fair"
                         }
-                        else if (Double)(mark) ?? 0 >= 60 {
+                        else if (Double(mark) ?? 0) >= 60 {
                             grade = "Fail"
                         }
                     }
